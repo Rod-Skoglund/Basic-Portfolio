@@ -1,0 +1,171 @@
+/* ********************************************* */
+/* Assignment #1 - Coding Bootcamp MW Class      */
+/* Author: Rod Skoglund                          */
+/* Stype Sheet for index page of Assignment #1   */
+/* ********************************************* */
+
+/* body, html {
+    height: 100%;
+}
+ */
+.bg { 
+    /* The image used */
+    background-image: url("darkness.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    width: 960px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.header-menu {
+    float: right;
+    margin: auto;
+    padding: 20px;
+    color: #4aaaa5;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#my-name {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
+    height: 50px;
+    width: 200px;
+}
+
+#about-me {
+    border-style: solid;
+    color: #4aaaa5;
+    border-bottom-color: #dddddd;
+    border-top-color: #dddddd;
+    border-width: 2px 0px 2px 0px;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+#my-pict {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    right: 10px;
+    float: left;
+    padding: 0px;
+}
+
+.main-wrapper {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    float: left;
+    padding: 0px 10px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.wrap-p {
+    position: relative;
+    left: 10px;
+    top: 0px;
+}
+
+/* unvisited link */
+a:link {
+    color: #777777;
+}
+
+/* visited link */
+a:visited {
+    color: #777777;
+}
+
+/* selected link */
+a:active {
+    color: #777777;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=textarea], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: %40px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea{
+    height: 100px;
+    width: 100%;
+}
+
+
